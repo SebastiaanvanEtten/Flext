@@ -21,5 +21,6 @@ namespace Flext
             WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>()
                 .Build();
+
     }
 }
